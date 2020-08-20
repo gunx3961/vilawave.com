@@ -1,0 +1,38 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: -apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+  background-color: rgb(32, 32, 32);
+  filter: invert(1) contrast(0.75);
+}
+
+#logo {
+  margin: 0 auto;
+  width: 70%;
+  height: 100vh;
+  background-image: url('/prototype.png');
+  background-size: contain;
+  background-position-x: center;
+  background-position-y: 20%;
+  background-repeat: no-repeat;
+}
+
+#comingSoon {
+  font-size: 2.4rem;
+  font-weight: 100;
+  position: absolute;
+  bottom: 25%;
+  text-align: center;
+  width: 100%;
+}
+
+.footer {
+  font-size: 12px;
+  color: #888888;
+  position: absolute;
+  bottom: 0px;
+  right: 8px;
+  text-align: center;
+}
